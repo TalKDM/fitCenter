@@ -1,0 +1,64 @@
+.newsMainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondMainDiv {
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 1px;
+    text-indent: 10px;
+    color: white;
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #03045E;
+    -webkit-border-radius: 40px 10px 40px 10px;
+    -moz-border-radius: 40px 10px 40px 10px;
+    border-radius: 40px 10px 40px 10px;
+    border: 5px double #00B4D8;
+}
+
+.welcomeHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fitCenter {
+    color: black;
+    text-shadow: 2px 2px 0 #00B4D8, 2px -2px 0 #4074b5, -2px 2px 0 #00B4D8, -2px -2px 0 #4074b5, 2px 0px 0 #00B4D8, 0px 2px 0 #4074b5, -2px 0px 0 #00B4D8, 0px -2px 0 #00B4D8;
+}
+
+.latestWorkoutNews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latestWorkoutBtn {
+    margin-top: 6px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latestWorkoutBtn button {
+    cursor: pointer;
+    font-family: 'Russo One', sans-serif;
+    color: #00B4D8;
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: 0.5s ease-in-out color;
+}
+
+.latestWorkoutBtn button:hover {
+    color: #CAF0F8;
+
+}

@@ -1,0 +1,307 @@
+.mainUserSettingsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondUserSetting {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.userSettingsTitle {
+    font-family: 'Russo One', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.userSettingsTitle h1 {
+    letter-spacing: 1px;
+}
+
+.traineeName {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #CAF0F8;
+    border-radius: 10px;
+}
+
+.traineeName h2 {
+    font-family: 'Russo One', sans-serif;
+    text-indent: 10px;
+    letter-spacing: 1px;
+}
+
+.traineeName h4 {
+    text-indent: 10px;
+}
+
+.traineeNameBtn{
+    margin-left: 3px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 1px;
+    transition: 0.8s ease-in-out background-color;
+}
+
+.traineeNameBtn:hover {
+    border: 1px solid #03045E;
+}
+
+.changeUserFullName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7%;
+    -webkit-animation: slide-right 0.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    animation: slide-right 0.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  
+
+.changeUserFullName input {
+    width: 300px;
+    font-size: 17px;
+    height: 27px;
+    text-indent: 5px;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+}
+
+.changeUserFullName button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+    font-size: 22px;
+    width: 35px;
+    height: 27px;
+    background-color: white;
+    transition: 0.1s ease-in-out font-weight;
+}
+
+.changeUserFullName button:hover {
+    font-weight: bold;
+}
+
+.changedNameMsgDiv {
+    margin-left: 15%;
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.changePassword {
+    margin-top: 20px;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #CAF0F8;
+    border-radius: 10px;
+}
+
+
+.changePassword button {
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 2px solid #00B4D8;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    color: #00B4D8;
+    transition: 0.4s ease-out background-color;
+}
+
+.changePassword button:hover {
+    background-color: #03045E;
+}
+
+.inputChangeNameDiv {
+    display: flex;
+    gap: 10px;
+    -webkit-animation: bounce-in-top 1.1s both;
+    animation: bounce-in-top 1.1s both;
+}
+
+@-webkit-keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
+
+.inputChangeNameDiv input {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 300px;
+    border-radius: 20px;
+    text-indent: 5px;
+}
+
+.changePassMsg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.changedNameMsgDiv2 {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+

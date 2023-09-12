@@ -1,0 +1,143 @@
+.mainChestExercisesSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondChestExercisesSection {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titleChestExercisesSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    height: 50px;
+    width:100%;
+    background-color: #03045E;
+}
+
+.titleChestExercisesSection h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 1px;
+    color: #00B4D8;
+}
+
+.formOfResistanceDiv {
+    color: white;
+    margin-top: 5px;
+    width: 90%;
+    border: 3px solid #00B4D8;
+    border-radius: 10px;
+    background-color: #03045E;
+    padding: 5px;
+}
+
+.formOfResistanceDivButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formOfResistanceDivButtons button {
+    cursor: pointer;
+    background-color: transparent;
+    color: #CAF0F8;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in color;
+}
+
+.formOfResistanceDivButtons button:hover {
+    color: #00B4D8;
+}
+
+.showChosenExercises {
+    width: 481px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.bodyWeightExerciseDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyWeightExerciseSquare {
+    letter-spacing: 1px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      margin-top: 15px;
+      -webkit-animation: scale-up-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: scale-up-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      background-color: #CAF0F8;
+      border-radius: 25px;
+      font-family: 'Russo One', sans-serif;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.bodyWeightExerciseSquare h2 {
+    color: transparent;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+.exerciseExp {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: start;
+}
+
+.exerciseExp p {
+    color: red;
+}
+
+.favBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favBtn button {
+    color: red;
+    padding: 5px;
+    font-family: 'Russo One', sans-serif;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid red;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    transition: 0.3s ease-in-out background-color;
+}
+
+.favBtn button:hover {
+    background-color: #79e9ff;
+}

@@ -1,0 +1,55 @@
+.mainSearchPageDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.secondSearchPage {
+    margin-top: 2px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.backBtn {
+    cursor: pointer;
+    font-size: 28px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: 0.1s ease-in-out font-weight;
+}
+
+.backBtn:hover {
+    font-weight: bolder;
+}
+
+.foundExerciseDiv {
+    letter-spacing: 1px;
+    width: 50%;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #CAF0F8;
+    border-radius: 25px;
+    font-family: 'Russo One', sans-serif;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.foundExerciseDiv h2 {
+    color: transparent;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+

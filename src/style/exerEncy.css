@@ -1,0 +1,358 @@
+.mainEncyDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondEncyDiv {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.musclesButtons {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03045E;
+    border-radius: 25px;
+    padding: 2px;
+    padding: 8px;
+}
+
+.bodyPartsButtons button {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    border-radius: 25px;
+    transition: 0.3s ease-in-out background-color;
+}
+
+.bodyPartsButtons button:hover {
+    background-color: #00B4D8;
+}
+
+.favExercises {
+    margin-top: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #03045E; */
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.showFavoriteExercises {
+        gap: 20px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.showFavoriteExercises h3 {
+    letter-spacing: 1px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.favExercises button {
+    color: white;
+    padding: 5px;
+    font-family: 'Russo One', sans-serif;
+    cursor: pointer;
+    background-color: #03045E;
+    border: 8px double white;
+    outline: none;
+    font-size: 22px;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    transition: 0.3s ease-in-out color;
+    transition: 0.8s ease-in-out border;
+}
+
+.favExercises button:hover {
+    color: red;
+    border: 8px double #00B4D8;
+}
+
+.favExercisesSquare {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        -webkit-animation: rotate-in-diag-2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: rotate-in-diag-2 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes rotate-in-diag-2 {
+  0% {
+    -webkit-transform: rotate3d(-1, 1, 0, -360deg);
+            transform: rotate3d(-1, 1, 0, -360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+            transform: rotate3d(-1, 1, 0, 0deg);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-diag-2 {
+  0% {
+    -webkit-transform: rotate3d(-1, 1, 0, -360deg);
+            transform: rotate3d(-1, 1, 0, -360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+            transform: rotate3d(-1, 1, 0, 0deg);
+    opacity: 1;
+  }
+}
+
+.displayExercises {
+    width: 90%;
+    height: 100%;
+}
+
+.displayExercises h1 {
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 1px;
+    color: red;
+}
+
+.chestExercisesDiv {
+    -webkit-animation: bounce-in-fwd 1.1s cubic-bezier(0.600, 0.040, 0.980, 0.335) both;
+    animation: bounce-in-fwd 1.1s cubic-bezier(0.600, 0.040, 0.980, 0.335) both;
+}
+
+@-webkit-keyframes bounce-in-fwd {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: scale(0.7);
+              transform: scale(0.7);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: scale(0.84);
+              transform: scale(0.84);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    89% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: scale(0.95);
+              transform: scale(0.95);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes bounce-in-fwd {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: scale(0.7);
+              transform: scale(0.7);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: scale(0.84);
+              transform: scale(0.84);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    89% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: scale(0.95);
+              transform: scale(0.95);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+
+
+
+  .popup-content {
+        overflow-x: hidden;
+        overflow-y: auto;
+        border-radius: 25px;
+        max-height: 500px;
+        background-color: #00B4D8;
+	-webkit-animation: puff-in-hor 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	animation: puff-in-hor 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+  @-webkit-keyframes puff-in-hor {
+        0% {
+          -webkit-transform: scaleX(2);
+                  transform: scaleX(2);
+          -webkit-filter: blur(4px);
+                  filter: blur(4px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: scaleX(1);
+                  transform: scaleX(1);
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+      @keyframes puff-in-hor {
+        0% {
+          -webkit-transform: scaleX(2);
+                  transform: scaleX(2);
+          -webkit-filter: blur(4px);
+                  filter: blur(4px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: scaleX(1);
+                  transform: scaleX(1);
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+      
+
+  .modal {
+        font-size: 12px;
+        background-color: #00B4D8;
+        border-radius: 20px;
+        max-height: fit-content;
+      }
+      .modal > .header {
+        font-family: 'Russo One', sans-serif;
+        letter-spacing: 1px;
+        width: 100%;
+        border-bottom: 1px solid gray;
+        font-size: 30px;
+        text-align: center;
+        padding: 5px;
+      }
+      .modal > .content {
+        width: 100%;
+        padding: 10px 5px;
+        text-align: center;
+        gap: 5px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+      }
+
+      .chooseWorkoutBtn button {
+        font-family: 'Russo One', sans-serif;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 20px;
+      }
+
+      .modal > .actions {
+        width: 100%;
+        padding: 10px 5px;
+        margin: auto;
+        text-align: center;
+      }
+      .modal > .close {
+        cursor: pointer;
+        position: absolute;
+        display: block;
+        padding: 2px 5px;
+        line-height: 20px;
+        right: 5px;
+        top: 2px;
+        font-size: 24px;
+        background: #03045E;
+        color: white;
+        border-radius: 28px;
+        border: 1px solid #cfcece;
+        transition: 0.2s ease-in color;
+      }
+
+      .modal > .close:hover {
+        color: red;
+      }
+
+
+.searchBarSection {
+        z-index: 100;
+        border-radius: 25px;
+}
+
+
+
+
+

@@ -1,0 +1,92 @@
+.mainUserDropMenuDiv {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.secondUserDropMenuDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #00B4D8;
+    background-color: #CAF0F8;
+    border-radius: 25px;
+    height: 140px;
+    position: fixed;
+    left: 81%;
+    top: -9%;
+	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+	animation: slide-bottom 0.5s cubic-bezier(0.600, -0.280, 0.735, 0.045) both;
+}
+
+@-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
+
+  .menuDiv {
+    border-radius: 8px;
+    transition: 0.2s ease-in background-color;
+  }
+
+  .menuDiv:hover {
+    background-color: #00B4D8;
+    border-radius: 8px;
+  }
+
+.menuDiv button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 3px;
+    transition: 0.2s ease-in color;
+}
+
+.menuDiv button:hover {
+  color: #CAF0F8;
+}
+
+.closeBtn {
+    margin-top: 10px;
+
+}
+
+
+
+.closeBtn button {
+    border-radius: 50%;
+    cursor: pointer;
+    color: #03045E;
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    transition: 1.0s ease-in-out background-color;
+}
+.closeBtn button:hover {
+    background-color: #00B4D8;
+}

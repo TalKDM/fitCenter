@@ -1,0 +1,244 @@
+.mainWorkoutLog {
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.latestWorkout {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03045E;
+    border-radius: 25px;
+    padding: 2px;
+    color: white;
+}
+
+.workoutDateDiv {
+    color: black;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: #CAF0F8;
+    transition: 0.5s ease-in-out background-color;
+}
+
+.workoutDateDiv button {
+    font-family: 'Russo One', sans-serif;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    transition: 0.3s ease-in-out background-color;
+}
+
+.workoutDateDiv:hover {
+    background-color: #00B4D8;
+}
+
+.workoutDateDiv button:hover {
+    color: white;
+}
+
+.exerciseDiv {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    margin-top: 15px;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    background-color: #CAF0F8;
+    border-radius: 25px;
+    font-family: 'Russo One', sans-serif;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+  .exerciseName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .exerciseName button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    color: black;
+    transition: 1.0s ease-in-out color;
+  }
+
+  .exerciseName button:hover {
+    color: #00B4D8;
+  }
+
+  .openWeightSectionBtn {
+    font-family: 'Russo One', sans-serif;
+    align-items: center;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    color: #00B4D8;
+    display: flex;
+    cursor: pointer;
+    background-color: #CAF0F8;
+    outline: none;
+    transition: 0.2s ease-in-out color;
+  }
+  
+  .openWeightSectionBtn:hover {
+    color: #03045E;
+  }
+  
+
+.CloseBtn {
+    cursor: pointer;
+    padding: 4px;
+    font-size: 18px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #CAF0F8;
+    transition: 0.2s ease-in-out box-shadow;
+}
+
+.CloseBtn:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.addWeight {
+  gap: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.addWeight input {
+  border: 1px solid black;
+  border-radius: 25px;
+  outline: none;
+  background-color: #CAF0F8;
+  width: 60px;
+  text-indent: 10px;
+}
+
+
+
+.addWeight button {
+  align-items: center;
+  margin-left: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: 2px solid #00B4D8;
+  font-weight: bold;
+  color: #00B4D8;
+  display: flex;
+  cursor: pointer;
+  background-color: #CAF0F8;
+  outline: none;
+  transition: 0.2s ease-in-out color;
+}
+
+.addWeight button:hover {
+  color: #03045E;
+  border: 2px solid #03045E;
+}
+
+.exerciseWeightNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	-webkit-animation: rotate-scale-up 0.65s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: rotate-scale-up 0.65s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@-webkit-keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}
+@keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}
+
+.exerciseWeightNumber button {
+  margin-left: 20px;
+  background-color: transparent;
+  border-radius: 25px;
+  outline: none;
+}
+
+.exerciseWeightNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  border: 2px solid black;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border-color: #00B4D8;
+}
+
+.exerciseWeightNumber p {
+  color: red;
+  margin-right: 10px;
+}
+
+.exerciseWeightNumber button {
+  cursor:pointer;
+}
+
+
+

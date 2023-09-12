@@ -1,0 +1,172 @@
+
+.mainNavbarDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondNavbarDiv {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #03045E;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+}
+
+.upperDiv {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00B4D8;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.title {
+    font-family: 'Russo One', sans-serif;
+}
+
+.latestWorkout {
+    font-family: 'Russo One', sans-serif;
+}
+
+.latestWorkout h2 {
+    letter-spacing: 1px;
+}
+
+.mediaLogo{
+    display: flex;
+    gap: 2px;
+    margin-left: 30px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.character {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    margin-left: 5px;
+    margin-top: 3px;
+    transition: 0.3s ease-in-out background-color;
+}
+
+.character button {
+    border-radius: 50%;
+    cursor: pointer;
+    line-height: 35%;
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+}
+
+.character:hover {
+    background-color: #CAF0F8;
+}
+
+.centerDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+
+.logo {
+    margin-left: 7%;
+    border-radius: 50%;
+    background-color: #CAF0F8;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.logo img {
+    cursor: pointer;
+}
+
+.leftButtons {
+    display: flex;
+}
+
+.rightButtons {
+    display: flex;
+}
+
+.bottomDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00B4D8;
+}
+
+.navBtn {
+    font-family: 'Russo One', sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #CAF0F8;
+    border-radius: 25px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    transition: 0.3s ease-in-out background-color;
+}
+
+.navBtn:hover {
+        border-radius: 25px;
+    background-color: #00B4D8;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.backButtonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03045E;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s ease-in-out background-color;
+}
+
+.backButton {
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.backButtonDiv:hover {
+    background-color: #CAF0F8;
+}
+.CloseBtn {
+    margin-top: 10px;
+}
+
+.userMenuOpen {
+
+}
+
+
+
+
